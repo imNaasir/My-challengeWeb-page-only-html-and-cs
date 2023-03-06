@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+   
+}
+.box1{
+    box-sizing: border-box;
+    border: none;
+    width: 50%;
+    height: 100vh;
+    background-image: url('./images/smile\ \(1\).png') ;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    background-position: left bottom;
+
+}
+.box1 .nav1{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+        }
+.logo span{
+    padding-left: 8px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #2B7AD9;
+}
+.logo img{
+    border-radius: 50%;
+}
+.nav1 ul{
+    margin-left: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #80A4D0;
+    padding: 0 20px;
+    font-size: 20px;
+}
+/* Box 1  main 1 
+    text with icons */ 
+.main1  .text_with_icons{
+    
+    font-family: arial;
+    margin: 50px 40px;
+    font-size: 55px;
+    color: #1D7CED;
+      
+}
+
+.text_with_icons .star{
+    font-size: 36px;
+    color: #FF9A42;
+}
+
+.text_with_icons .goodbye{
+    padding: 0 6px;
+}
+
+.center_logo img{
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+    top: 330px;
+
+}
+
+/* box2 */
+.box2{
+    box-sizing: border-box;
+    border: none;
+    width: 50%;
+    height: 99vh;
+    background-color: #FAF5EC;
+    border-bottom-left-radius: 100px;
+
+}
+.box2 .nav2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.nav2 ul{
+    margin-left: 70px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav2 li a{
+    text-decoration: none;
+    color: #80A4D0;
+    padding: 0 25px;
+    font-size: 20px;
+}
+button{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    
+}
+.bt_1{
+    margin-left: 30px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #7999BF;
+    background: none;
+    color: #638BC5;
+    text-transform: capitalize; 
+}
+.bt_2{
+
+    padding: 8px 22px;
+    border-radius: 20px;
+    border: 1px solid #7999BF;
+    background: none;
+    color: #638BC5;
+    text-transform: capitalize;
+    background-color: #1E7BED;
+    color: #D4F2FF;
+    
+}
+.section{
+    margin-right: 70px;
+}
+.main2 .section p{
+    margin-top: 70px;
+    margin-left: 105px;
+    width: 400px;
+    text-align: right;
+   
+  
+}
+
+.main2 img{
+    
+    border-radius: 20px;
+    float: right;
+    
+}
+.main2 .image{
+  
+    margin-right: 145px;
+    margin-top: 45px;
+}
+.image img{
+    width: 470px;
+    height: 400px;
+}
